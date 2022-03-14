@@ -32,4 +32,4 @@ Compiling the source code: "g++ -fopenmp RPTRF.c -O -o RPTRF"
 
 ------------------
 **Accuracy**
-This folder contains details of each TR found that is overlapped with 5 datasets.
+This folder contains details of each TR found that is overlapped with 5 datasets( for RPTRF and related works).
