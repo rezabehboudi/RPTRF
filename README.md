@@ -24,6 +24,3 @@ Min_TR_length: Determines the minimum length of reported TRs.
 
 Compiling the source code: "g++ -fopenmp RPTRF.c -O -o RPTRF"
 
--o : Determines output file name..
-
--O : It is a director to the compiler with which code becomes a little efficient.
