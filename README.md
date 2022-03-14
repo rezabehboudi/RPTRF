@@ -10,7 +10,7 @@ A directory named RPTRF contains portable application written by c++.
 
 Insert following command on Linux command-line to run the application:
 
-"./RPTRF File_Address Min_Core_Size Min_TR_length)."
+"./RPTRF File_Address Min_Core_Size Min_TR_length"
 
 
 File_Address : Refers to the location of the Fasta sequence.
