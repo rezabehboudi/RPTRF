@@ -16,6 +16,8 @@ Min_Core_Size: Determines the minimum core size of TRs.
 
 Min_TR_length: Determines the minimum length of reported TRs.
 
+Results: A .txt file that has an identical name of the corresponding chromosome will be contained TRs.
+
 ------------------
 
 
