@@ -5,7 +5,7 @@ Link to download Human Genome 38. https://www.ncbi.nlm.nih.gov/assembly/GCF_0000
 ------------------
 
 
-Guideline for running:
+**Guideline for running:**
 A directory named RPTRF contains portable application written by c++.
 
 Insert following command on Linux command-line to run the application: "./RPTRF File_Address Min_Core_Size Min_TR_length)."
@@ -20,7 +20,7 @@ Min_TR_length: Determines the minimum length of reported TRs.
 
 
 
-Source code: Directory named Source code contains the source code of the RPTRF.
+**Source code**: Directory named Source code contains the source code of the RPTRF.
 
 Compiling the source code: "g++ -fopenmp RPTRF.c -O -o RPTRF"
 
