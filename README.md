@@ -29,6 +29,12 @@ Arguments table:
 |  -t  | Minimum length of tandem repeats  	                                                                                    |   10   |
 |  -h  | Access to manual in the command lime	                                                                          |       |
 
+<br>
+Output:
+<br>
+Tandem repeats of a given sequnce will be appeared in ``resul-X.txt`` file(s).
+* For each chromosome a seperete file will be reported.
+* -X is number two show diffirent output files.
 
 <br><br>
 ## Compile the source code
@@ -43,5 +49,8 @@ sudo g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
 3. The binary file will be named as : `./RPTRF` 
 
 <br><br><br><br>
+
+
+
 
 
