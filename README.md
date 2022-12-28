@@ -1,35 +1,25 @@
 # RPTRF
-RPTRF: A Rapid Perfect Tandem Repeat Finder Tool for DNA Sequences
+**RPTRF: A Rapid Perfect Tandem Repeat Finder Tool for DNA Sequences**
+<br><br>
+## Run the executable
+To run the executable file follow the steps:
 
-Link to download Human Genome 38. https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/
-------------------
+1. The executable file is available both in `Executable/RPTRF` and Releases section. 
+2. Input sequence: 
+* Download sample sequnce from `Sample_Sequnce/Choromosome22(Trimmed).fasta`.
+* Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
+* Use your `.fasta` sequnce 
+3. Run the following command:
 
-
-**Guideline for running:**
-A directory named RPTRF contains portable application written by c++.
-
-Insert following command on Linux command-line to run the application:
-
-"./RPTRF File_Address Min_Core_Size Min_TR_length"
-
-
-File_Address : Refers to the location of the Fasta sequence.
-
-Min_Core_Size: Determines the minimum core size of TRs.
-
-Min_TR_length: Determines the minimum length of reported TRs.
-
-Results: A .txt file that has an identical name of the corresponding chromosome will be contained TRs.
-
-------------------
+```
+sudo ./RPTRF -s chromosome22(Trimmed).fasta -m 100 -t 10
+```
 
 
+<br><br>
+## Compile the source code
 
-**Source code**: Directory named Source code contains the source code of the RPTRF.
-
-Compiling the source code: "g++ -fopenmp RPTRF.c -O -o RPTRF"
-
-
-------------------
-**Accuracy**
-This folder contains details of each TR found that is overlapped with 5 datasets( for RPTRF and related works).
+Once the 
+```
+gcc -O3 -o -w tandem tandem.c
+```
