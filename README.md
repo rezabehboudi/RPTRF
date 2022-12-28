@@ -35,7 +35,7 @@ sudo ./RPTRF -s chromosome22(Trimmed).fasta -m 100 -t 10
 Tandem repeats of a given sequnce will be appeared in ``resul-X.txt`` file(s).
 <br>
 * For each chromosome a seperete file will be reported.
-* -X is number two show diffirent output files.
+* -X is a number for each of the given chromosomes.
 
 <br><br>
 ## Compile the source code
