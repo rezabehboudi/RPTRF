@@ -32,7 +32,7 @@ Arguments table:
 <br>
 Output:
 <br>
-Tandem repeats of a given sequnce will be appeared in ``resul-X.txt`` file(s).
+Tandem repeats of a given sequnce will be appeared in ``resul-X.txt`` file(s).<br>
 * For each chromosome a seperete file will be reported.
 * -X is number two show diffirent output files.
 
