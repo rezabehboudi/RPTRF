@@ -42,4 +42,3 @@ sudo g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
 3. The binary file will be named as : `./RPTRF` 
 
 <br><br><br><br>
-
