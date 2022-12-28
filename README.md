@@ -20,7 +20,7 @@ sudo ./RPTRF -s chromosome22(Trimmed).fasta -m 100 -t 10
 ```
 
 <br><br>
-Arguments table:
+**Arguments table**:
 <br>
  Flag | Definition                                                                                                  | Default |
 |------|-------------------------------------------------------------------------------------------------------------|---------|
@@ -30,7 +30,7 @@ Arguments table:
 |  -h  | Access to manual in the command lime	                                                                          |       |
 
 <br><br>
-Output:
+**Output**:
 <br>
 Tandem repeats of a given sequnce will be appeared in ``resul-X.txt`` file(s).
 <br>
