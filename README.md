@@ -24,9 +24,9 @@ Arguments table:
  Flag | Definition                                                                                                  | Default |
 |------|-------------------------------------------------------------------------------------------------------------|---------|
 |  -s  | Input .Fasta sequnce path                                                                            |        |
-|  -m  | Maximum motife size    	                                                                             |    100 |
-|  -t  | Minimum length of tandem repeats  	                                                                  |   10   |
-|  -h  | Access to manual in the command lime	                                                                |       |
+|  -m  | Maximum motife size    	                                                                                  |    100    |
+|  -t  | Minimum length of tandem repeats  	                                                                                    |   10   |
+|  -h  | Access to manual in the command lime	                                                                          |       |
 
 
 <br><br>
