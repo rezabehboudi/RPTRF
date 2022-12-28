@@ -19,8 +19,9 @@ sudo ./RPTRF -s chromosome22(Trimmed).fasta
 sudo ./RPTRF -s chromosome22(Trimmed).fasta -m 100 -t 10
 ```
 
-<br>
+<br><br>
 Arguments table:
+<br>
  Flag | Definition                                                                                                  | Default |
 |------|-------------------------------------------------------------------------------------------------------------|---------|
 |  -s  | Input .Fasta sequnce path                                                                            |        |
@@ -42,3 +43,5 @@ sudo g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
 3. The binary file will be named as : `./RPTRF` 
 
 <br><br><br><br>
+
+
