@@ -9,7 +9,7 @@ To run the executable file follow the steps:
 * Download sample sequnce from `Sample_Sequnce/Choromosome22(Trimmed).fasta`.
 * Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
 * Use your `.fasta` sequnce 
-3. Run the following command for the defult arguments:
+3. Run the following command for the defult arguments(Please note that in this example the sequnce and the RPTRF are in the same directory):
 ```
 sudo ./RPTRF -s chromosome22(Trimmed).fasta
 ```
