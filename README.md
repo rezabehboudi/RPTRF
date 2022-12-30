@@ -4,20 +4,21 @@
 ## Run the executable
 To run the executable file follow the steps:
 
-1. The executable file is available both in `Executable/RPTRF` and Releases section. 
-2. Make the RPTRF executable by the following command:
+1. Download the repository and unzip the file.  
+2. Get access to the executable file from `Executable/RPTRF` directory or the Releases section of the the repository.
+3. Make the RPTRF executable by the following command:
 ```
 sudo chmod +x RPTRF
 ```
-3. Input sequnce options: 
-* Download sample sequnce from `Sample_Sequnce/Sample.fasta`.
+4. Input sequnce options: 
+* Find sample sequnce from `Sample_Sequnce/Sample.fasta`.
 * Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
 * Use your `.fasta` sequnce 
-4. Run the following command for the defult arguments(Please note that in this example the sequnce and the RPTRF are in the same directory):
+5. Run the following command for the defult arguments(Please note that in this example the sequnce and the RPTRF are in the same directory):
 ```
 sudo ./RPTRF -s sample.fasta
 ```
-5. To use optional arguments use the follwoing command:
+6. To use optional arguments use the follwoing command:
 
 ```
 sudo ./RPTRF -s sample.fasta -m 100 -t 10
