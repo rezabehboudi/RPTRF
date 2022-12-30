@@ -20,7 +20,7 @@ sudo ./RPTRF -s sample.fasta
 5. To use optional arguments use the follwoing command:
 
 ```
-sudo ./RPTRF -s chromosome22(Trimmed).fasta -m 100 -t 10
+sudo ./RPTRF -s Sample.fasta -m 100 -t 10
 ```
 
 <br><br>
