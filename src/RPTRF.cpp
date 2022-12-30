@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 			break;
 		case 't':
 			MinTR = atoi(optarg);
-			cout << MinTR << "\n\n\n\n\n\n\n";
 			break;
 		case 's':
 			Input = optarg;
