@@ -9,11 +9,11 @@ To run the executable file follow the steps:
 ```
 sudo chmod +x RPTRF
 ```
-4. Input sequnce options: 
+3. Input sequnce options: 
 * Download sample sequnce from `Sample_Sequnce/Choromosome22(Trimmed).fasta`.
 * Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
 * Use your `.fasta` sequnce 
-5. Run the following command for the defult arguments(Please note that in this example the sequnce and the RPTRF are in the same directory):
+4. Run the following command for the defult arguments(Please note that in this example the sequnce and the RPTRF are in the same directory):
 ```
 sudo ./RPTRF -s chromosome22(Trimmed).fasta
 ```
