@@ -5,7 +5,7 @@
 To run the executable file in Ubuntu, you may follow the steps:
 
 1. Download the repository and unzip the file.  
-2. Get access to the executable file from `executable/RPTRF` directory or the Releases section of the the repository.
+2. Get access to the executable file from `executable/RPTRF` path or the Releases section of the the repository.
 ```
 cd executable/
 ```
