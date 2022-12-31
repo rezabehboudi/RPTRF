@@ -14,17 +14,17 @@ cd Executable
 sudo chmod +x RPTRF
 ```
 4. Input sequnce options: 
-* Find sample sequnce from `Sample_Sequnce/Sample.fasta`.
+* Find sample sequnce from `dataset/Sample.fasta`.
 * Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
 * Use your `.fasta` sequnce 
-5. Run the following command for the defult arguments(Please note that in this example the sequnce and the RPTRF are in the same directory):
+5. Run the following command for the defult arguments:
 ```
-./RPTRF -s sample.fasta
+./RPTRF -s ../dataset/sample.fasta
 ```
 6. To use optional arguments use the follwoing command:
 
 ```
-./RPTRF -s sample.fasta -m 100 -t 10
+./RPTRF -s ../dataset/sample.fasta -m 100 -t 10
 ```
 
 <br><br>
