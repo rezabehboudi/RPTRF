@@ -42,7 +42,7 @@ sudo chmod +x RPTRF
 Tandem repeats of the given sequence will be appeared in the result file with the following structure:
 <br>
 | Start | End | Len | Motif length( Sequence ) |
-| :--- :        |     :---:      |     :---:     |          :---: |
+| :---:        |     :---:      |     :---:     |          :---: |
 | Starting point of the Tandem Repeat   | Ending point of the Tandem Repeat     | The length of the Tandem Repeat    | Motif Length(the motif that is repeated in the Tandem Repeat)    |
 
 
