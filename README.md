@@ -43,7 +43,7 @@ Tandem repeats of the given sequence will be appeared in the result file with th
 <br>
 | Start | End | Len | Motif length( Sequence ) |
 | :---         |     :---:      |     :---:     |          ---: |
-| git status   | git status     | git status    | git status    |
+| Starting point of the Tandem Repeat   | Ending point of the Tandem Repeat     | The length of the Tandem Repeat    | Motif Length(the motif that is repeated in the Tandem Repeat)    |
 
 
 
