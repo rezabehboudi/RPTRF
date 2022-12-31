@@ -5,7 +5,7 @@
 To run the executable file in Ubuntu, you may follow the steps:
 
 1. Download the repository and unzip the file.  
-2. Get access to the executable file from `executable/RPTRF` path or the Releases section of the the repository.
+2. Get access to the executable file from `executable/RPTRF` path or the Releases section of the repository.
 ```
 cd executable/
 ```
@@ -14,14 +14,14 @@ cd executable/
 sudo chmod +x RPTRF
 ```
 4. There are three options to get input DNA sequence: 
-* Option 1:  Find sample sequnce from `dataset/Sample.fasta`.
-* Option 2:  Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
-* Option 3:  Use your local DNA seuqnce in `.Fasta` format. 
-5. To run with  the defult settings rund the following command(the output file will be created in your current directory):
+* Option 1:  Find sample sequence from `dataset/Sample.fasta`.
+* Option 2:  Download sequence from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
+* Option 3:  Use your local DNA sequence in `.Fasta` format. 
+5. To run the RPTRF with the default settings run the following command(the output file will be created in your current directory):
 ```
 ./RPTRF -s ../dataset/sample.fasta
 ```
-6. To use optional arguments use the follwoing command:
+6. To use optional arguments use the following command:
 
 ```
 ./RPTRF -s ../dataset/sample.fasta -m 100 -t 10
@@ -39,32 +39,31 @@ sudo chmod +x RPTRF
 
 <br><br>
 **Output**:
-Tandem repeats of the given sequence will be appeared in the result file with the following structure:
+<br>
+Tandem repeats of the given sequence will be reported in your current directory. The structure of the result file will be  as follows:
 <br>
 | Start | End | Len | Motif length( Sequence ) |
 | :---:        |     :---:      |     :---:     |          :---: |
 | The starting point of the Tandem Repeat   | Ending point of the Tandem Repeat     | The length of the Tandem Repeat    | Motif Length(the motif that is repeated in the Tandem Repeat)    |
 
-
-
-<br>
-
-Tandem repeats of a given sequnce will be appeared in ``result-X.txt`` file(s).
-<br>
-* For each chromosome a seperete file will be reported.
-* -X is a number for each of the given chromosomes.
-
-<br><br>
+<br><br><br>
 ## Compile the source code
 
 The source code can be compiled with the following instructions:
 
-1. Download content of the RPTRF source directory `src/`
-2. Run the following command
+1. Download the repository and unzip the file
+2. Get the source code of RPTRF from `src/` directory
+3. Ensure that you have installed boost-devel package. To install the package use the following command:
+```
+sudo apt-get install libboost-all-dev
+
+```
+4. Once the package installed, run the following command to comile the source code:
 ```
 g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
+
 ```
-3. The binary file will be named as : `./RPTRF` 
+5. The binary file will be named as: `./RPTRF` 
 
 <br><br><br><br>
 
