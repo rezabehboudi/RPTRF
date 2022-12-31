@@ -3,6 +3,7 @@
 ## Table of Contents ##
  - [Purpose](#Run the executable)   
  - [Reference](#Compile the source code)
+<br>
 <br><br>
 ## Run the executable ##
 To run the executable file in Ubuntu, you may follow the steps:
