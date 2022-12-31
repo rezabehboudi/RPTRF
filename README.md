@@ -44,7 +44,7 @@ sudo chmod +x RPTRF
 <br><br>
 **Output**:
 <br>
-Tandem repeats of the given sequence will be reported as `result-X.txt` in your current directory. The `result-X.txt` .txt file has four columns each indicating the following information:
+Tandem repeats of the given sequence will be reported as `result-X.txt` in your current directory. The `result-X.txt` file has four columns each indicating the following information:
 <br>
 | Start | End | Len | Motif length( Sequence ) |
 | :---:        |     :---:      |     :---:     |          :---: |
