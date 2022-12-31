@@ -2,7 +2,7 @@
 **RPTRF: A Rapid Perfect Tandem Repeat Finder Tool for DNA Sequences**
 <br><br>
 ## Run the executable
-To run the executable file follow the steps:
+To run the executable file in Ubuntu follow the steps:
 
 1. Download the repository and unzip the file.  
 2. Get access to the executable file from `Executable/RPTRF` directory or the Releases section of the the repository.
