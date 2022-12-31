@@ -4,7 +4,7 @@
  - [Purpose](#Run the executable)   
  - [Reference](#Compile the source code)
 <br><br>
-## Run the executable
+## Run the executable ##
 To run the executable file in Ubuntu, you may follow the steps:
 
 1. Download the repository and unzip the file.  
@@ -54,7 +54,7 @@ Tandem repeats of the given sequence will be reported as `result-X.txt` in your 
 | The starting point of the Tandem Repeat   | Ending point of the Tandem Repeat     | The length of the Tandem Repeat    | Motif Length(the motif that is repeated in the Tandem Repeat)    |
 
 <br><br><br><br>
-## Compile the source code
+## Compile the source code ##
 
 The source code can be compiled with the following instructions:
 
