@@ -62,12 +62,12 @@ The source code can be compiled with the following instructions:
 sudo apt-get install libboost-all-dev
 
 ```
-4. Once the package installed, run the following command to comile the source code:
+4. Once the package is installed, run the following command to compile the source code:
 ```
 g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
 
 ```
-5. The binary file will be named as: `./RPTRF` 
+5. The binary file will be named as: `./RPTRF`. 
 
 <br><br><br><br>
 
