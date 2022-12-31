@@ -35,7 +35,7 @@ sudo chmod +x RPTRF
 |  -s  | Input .Fasta sequnce path                                                                            |        |
 |  -m  | Maximum motif length    	                                                                                  |    100    |
 |  -t  | Minimum length of tandem repeats  	                                                                                    |   10   |
-|  -h  | Access to manual in the command lime	                                                                          |       |
+|  -h  | Access to manual in the command line	                                                                          |       |
 
 <br><br>
 **Output**:
