@@ -41,7 +41,9 @@ sudo chmod +x RPTRF
 **Output**:
 Tandem repeats of the given sequence will be appeared in the result file with the following structure:
 <br>
-
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
 
 
 
