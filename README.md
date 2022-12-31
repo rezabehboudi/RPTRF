@@ -16,12 +16,12 @@ sudo chmod +x RPTRF
 * Use your `.fasta` sequnce 
 5. Run the following command for the defult arguments(Please note that in this example the sequnce and the RPTRF are in the same directory):
 ```
-sudo ./RPTRF -s sample.fasta
+./RPTRF -s sample.fasta
 ```
 6. To use optional arguments use the follwoing command:
 
 ```
-sudo ./RPTRF -s sample.fasta -m 100 -t 10
+./RPTRF -s sample.fasta -m 100 -t 10
 ```
 
 <br><br>
@@ -50,7 +50,7 @@ The source code can be compiled with the following instructions:
 1. Download content of the RPTRF source directory `src/`
 2. Run the following command
 ```
-sudo g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
+g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
 ```
 3. The binary file will be named as : `./RPTRF` 
 
