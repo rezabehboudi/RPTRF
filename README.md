@@ -17,7 +17,7 @@ sudo chmod +x RPTRF
 * Option 1:  Find sample sequnce from `dataset/Sample.fasta`.
 * Option 2:  Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
 * Option 3:  Use your local DNA seuqnce in `.Fasta` format. 
-5. Run the following command for the defult arguments:
+5. To run with  the defult settings rund the following command(the output file will be created in your current directory):
 ```
 ./RPTRF -s ../dataset/sample.fasta
 ```
