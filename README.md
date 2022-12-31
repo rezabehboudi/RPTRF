@@ -39,7 +39,17 @@ sudo chmod +x RPTRF
 
 <br><br>
 **Output**:
+Tandem repeats of the given sequence will be appeared in the result file with the following structure:
 <br>
+ start | End | End | Len | Motif Length |
+|------|-------------------------------------------------------------------------------------------------------------|---------|
+|start | End | End | Len | Motif Length |
+
+
+
+
+<br>
+
 Tandem repeats of a given sequnce will be appeared in ``result-X.txt`` file(s).
 <br>
 * For each chromosome a seperete file will be reported.
