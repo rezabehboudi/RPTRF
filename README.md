@@ -6,6 +6,9 @@ To run the executable file follow the steps:
 
 1. Download the repository and unzip the file.  
 2. Get access to the executable file from `Executable/RPTRF` directory or the Releases section of the the repository.
+```
+cd Executable
+```
 3. Make the RPTRF executable by the following command:
 ```
 sudo chmod +x RPTRF
