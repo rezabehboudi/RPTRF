@@ -8,10 +8,12 @@ To run the executable file in Ubuntu, you may follow the steps:
 2. Get access to the executable file from `executable/RPTRF` path or the Releases section of the repository.
 ```
 cd executable/
+
 ```
 3. Make the RPTRF executable by the following command:
 ```
 sudo chmod +x RPTRF
+
 ```
 4. There are three options to get input DNA sequence: 
 * Option 1:  Find sample sequence from `dataset/Sample.fasta`.
@@ -20,11 +22,13 @@ sudo chmod +x RPTRF
 5. To run the RPTRF with the default settings run the following command(the output file will be created in your current directory):
 ```
 ./RPTRF -s ../dataset/sample.fasta
+
 ```
 6. To use optional arguments use the following command:
 
 ```
 ./RPTRF -s ../dataset/sample.fasta -m 100 -t 10
+
 ```
 
 <br><br>
