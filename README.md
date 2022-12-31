@@ -13,7 +13,7 @@ cd executable/
 ```
 sudo chmod +x RPTRF
 ```
-4. Input sequnce options: 
+4. There are three options to get input DNA sequence: 
 * Find sample sequnce from `dataset/Sample.fasta`.
 * Download sequnce from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
 * Use your `.fasta` sequnce 
