@@ -41,9 +41,6 @@ sudo chmod +x RPTRF
 **Output**:
 Tandem repeats of the given sequence will be appeared in the result file with the following structure:
 <br>
- start | End | End | Len | Motif Length |
-|------|-------------------------------------------------------------------------------------------------------------|---------|
-|start | End | End | Len | Motif Length |
 
 
 
