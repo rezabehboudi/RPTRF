@@ -3,7 +3,13 @@
 <br>
 In this manual, you can find guidelines for running the executable file and compiling the RPTRF from the source code.
 <br>
-[run].(#run)
+
+Table of contents
+=================
+
+<!--ts-->
+   * [Installation](#installation)
+   * [Usage](#usage)
 
 <br><br>
 <a name="run"/>
