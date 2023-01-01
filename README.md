@@ -40,7 +40,7 @@ sudo chmod +x RPTRF
  Flag | Definition                                                                                                  | Default |
 |------|-------------------------------------------------------------------------------------------------------------|---------|
 |  -s  | Input .Fasta sequnce path                                                                            |        |
-|  -m  | Maximum motif length    	                                                                                  |    100    |
+|  -m  | Maximum motif size    	                                                                                  |    100    |
 |  -t  | Minimum length of tandem repeats  	                                                                                    |   10   |
 |  -h  | Access to manual in the command line	                                                                          |       |
 
