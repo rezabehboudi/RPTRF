@@ -8,8 +8,8 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Installation](#Run-the-executable)
-   * [Usage](#usage)
+   * [Run the executable](#Run-the-executable)
+   * [Compile the source code](#Compile-the-source-code)
 
 <br><br>
 <a name="run"/>
