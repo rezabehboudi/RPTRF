@@ -8,7 +8,7 @@ Table of contents
 =================
 
 <!--ts-->
-   * [Installation](#installation)
+   * [Installation](#Run-the-executable)
    * [Usage](#usage)
 
 <br><br>
