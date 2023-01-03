@@ -14,7 +14,7 @@ Table of contents
 <br><br>
 <a name="run"/>
 ## Run the executable ##
-To run the executable file in Ubuntu, you may follow the steps:
+To run the executable file, you may follow the bellow steps:
 
 1. Download the repository and unzip the file.  
 2. Get access to the executable file from `executable/RPTRF` path or the Releases section of the repository.
@@ -27,16 +27,13 @@ cd executable/
 sudo chmod +x RPTRF
 
 ```
-4. There are three options to get input DNA sequence: 
-* Option 1:  Find sample sequence from `dataset/Sample.fasta`.
-* Option 2:  Download sequence from NCBI ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/))
-* Option 3:  Use your local DNA sequence in `.Fasta` format. 
+4. Input sequence can be obtained from `dataset/Sample.fasta` directory, downloaded from the NCBI website ([GRCh38 (https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/)), or you may use your local DNA sequence in `.Fasta` format. 
 5. To run the RPTRF with the default settings run the following command(the output file will be created in your current directory):
 ```
 ./RPTRF -s ../dataset/sample.fasta
 
 ```
-6. To use optional arguments use the following command:
+6. To use optional arguments use the following command(argument explanation is provided in the following table):
 
 ```
 ./RPTRF -s ../dataset/sample.fasta -m 100 -t 10
