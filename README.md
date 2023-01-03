@@ -28,7 +28,7 @@ sudo chmod +x RPTRF
 
 ```
 4. Input sequence can be obtained from `dataset/Sample.fasta` directory, downloaded from the NCBI website ([GRCh38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/)), or you may use your local DNA sequence in `.Fasta` format. 
-5. To run the RPTRF with the default settings run the following command(the output file will be created in your current directory):
+5. To run the RPTRF with the default settings and the sample sequence, enter the following command(the output file will be created in your current directory):
 ```
 ./RPTRF -s ../dataset/sample.fasta
 
