@@ -57,7 +57,7 @@ Tandem repeats of the given sequence will be reported as `result-X.txt` in your 
 <br>
 | Start | End | Len | Motif length( Sequence ) |
 | :---:        |     :---:      |     :---:     |          :---: |
-| The starting point of the Tandem Repeat   | Ending point of the Tandem Repeat     | The length of the Tandem Repeat    | Motif Length(the motif that is repeated in the Tandem Repeat)    |
+| The starting point of the Tandem Repeat   | Ending point of the Tandem Repeat     | The length of the Tandem Repeat    | Motif Size(the motif that is repeated in the Tandem Repeat)    |
 
 <br><br><br><br>
 ## Compile the source code ##
