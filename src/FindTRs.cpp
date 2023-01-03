@@ -170,7 +170,7 @@ void Create_Output_File(string Output_File_Path)
  Output_File.open(Output_File_Path+".txt",ios::out);
 
  Write_Line_To_File("**********************************TRs Found by RPTRF**********************************\n");
- Write_Line_To_File("Start            End            Len        Motif length( Sequence )\n");
+ Write_Line_To_File("Start            End            Len        Motif Size( Sequence )\n");
 }
 void Write_Tr(int start, int end,int distance )
 {
