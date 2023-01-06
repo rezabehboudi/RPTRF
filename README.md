@@ -77,7 +77,7 @@ g++ -fopenmp RPTRF.cpp -O3 -o RPTRF
 
 ```
 5. The binary file will be named as: `./RPTRF`. 
-<br>
+
 6. To use the RPTRF follow the [Executing](#Run-the-executable) section.
 
 <br><br><br><br>
