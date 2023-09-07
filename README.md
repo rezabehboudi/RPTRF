@@ -1,7 +1,7 @@
 # RPTRF
 **RPTRF: A Rapid Perfect Tandem Repeat Finder Tool for DNA Sequences**
 <br>
-The article is available on ScinceDirect: https://authors.elsevier.com/c/1gjMo14z5I5bo0
+The article is available on ScinceDirect: [https://authors.elsevier.com/c/1gjMo14z5I5bo0](https://www.sciencedirect.com/science/article/pii/S0303264723000448)
 <br>
 <br>
 
